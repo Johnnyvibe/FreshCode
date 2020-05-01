@@ -1,0 +1,44 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    padding:0;
+    margin:0;
+}
+body {
+    margin:0 auto;
+    padding-top: 3.5em;;
+    max-width:1440px;
+    background-color: #f1f1f1;
+
+}
+.information {
+    margin-top:2em;
+    display: flex;
+    justify-content: flex-start;
+}
+.my-photo{
+    width:200px;
+}
+.about-me{
+    margin-left:1.5em;
+    width: 350px;
+}
+.skill-mem,
+.character-me,
+.contact-me{
+    margin-left:1.5em;  
+}
+.information ul{
+    list-style-type: none;
+    padding:0;
+}
+.about-information {
+    margin-top:2em;
+}
+.about-information p{
+    padding-top:1em;
+}   
