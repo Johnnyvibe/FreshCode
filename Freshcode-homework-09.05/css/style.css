@@ -14,7 +14,9 @@ h3,
 h4,
 h5,
 h6,
-blockquote{
+blockquote,
+ul,
+li{
     margin:0;
     padding:0;
     font-family: "Lato Medium",sans-serif;
@@ -74,16 +76,29 @@ blockquote{
 }
 #web_column{
     background: #333;
+    display: flex;
+    justify-content: center;
 }
 #web_column ul{
     display: flex;
     list-style-type: none;
+    max-width: 850px;
 }
 #web_column li{
     width: 33.3333%;
     background: #fff;
     color: #333;
+    margin: 25px 10px 50px;
 }
 img{
-    width:150px;
+    width: 100%;
+}
+.card{
+    text-align: center;
+}
+.card h3{
+    padding: 30px;
+}
+.card p{
+    padding: 0 0 50px;
 }
