@@ -139,4 +139,19 @@ img{
     font-size:18px;
     padding:20px;
 }
-
+footer{
+    background-color: #000000;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    max-width: 1050px;
+    margin: auto;
+    color:#ffffff;
+}
+.footer p,
+.footer a{
+    font-size: 18px;
+    text-decoration: none;
+}
