@@ -4,12 +4,27 @@ body{
 .user-card{
     border-radius: 20px;
     max-width: 400px;
-    background-color: #000000;
+    background-color: #FFFFE0;
     margin: 0 auto;
 }
 .header{
     text-align: center;
-    color:#ffffff;
+    color:#4B0082;
     font-size:25px;
     padding: 0.1em;
+}
+.content{
+    background-color: #7FFFD4;
+}
+.avatar {
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.avatar img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
 }
