@@ -38,6 +38,7 @@ body{
 
 .content{
     background-color: #7FFFD4;
+    border-radius: 0 0 20px 20px;
 }
 
 .avatar {
@@ -65,4 +66,25 @@ body{
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    padding:1em 2em;
+    text-decoration: none;
+}
+.card-button{
+    width: 100px;
+    border-radius: 30px;
+    background-color: #87CEFA;
+    text-decoration: none;
+    color:#ffffff;
+    font-family: "Lato Medium";
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+}
+.card-button:hover{
+    background-color: #ffffff;
+    color:#4B0082;
 }
