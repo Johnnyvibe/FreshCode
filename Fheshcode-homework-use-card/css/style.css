@@ -28,3 +28,10 @@ body{
     display: block;
     margin: 0 auto;
 }
+.text{
+    padding:0 2em;
+}
+.text p{
+    font-size:16px;
+    color:#4B0082;
+}
