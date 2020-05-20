@@ -1,9 +1,77 @@
+@font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal;
+    font-display: auto;
+    src: url(../fonts/lato-medium.ttf)  format("truetype");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD, U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "Lato";
+}
+
 table{
     margin:0 auto;
-    border-collapse: collapse;  
+    border-collapse: collapse;
 }
+table tr:last-child th:first-child {
+    border-top-left-radius: 10px;   
+}
+
+table tr:last-child th:last-child {
+    border-top-right-radius: 10px;
+}
+thead{
+    color:#ffffff;
+    font-size: 20px;
+}
+
+thead th:first-child{
+    background-color: #a3b0f7;
+    
+}
+
+thead th:nth-child(2){
+    background-color: #6572ba;
+}
+
+thead th:nth-child(3){
+    background-color: #48528a
+}
+
+thead th:nth-child(4){
+    background-color: #2c3569;
+}
+
+thead th:last-child{
+    background-color: #222952;
+}
+
 td,th{
-    border: 1px solid #ddd;
-    padding: 8px;
+    padding: 1em;
     text-align: center;
+}
+
+td:first-child{
+    text-align: start;
+}
+
+tr{
+    background-color: #f1f1f1;
+}
+
+tr:nth-child(2n+1){
+    background-color: #f0f0e9;
+}
+tr:hover{
+    background-color: #c2c2be;
+}
+
+button{
+    background: #bdbdb9;
+    padding:7px 20px;
+    text-transform: uppercase;
+    border: 1px solid #f1f1f1;
 }
