@@ -1,3 +1,55 @@
+@font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal;
+    font-display: auto;
+    src: url(../fonts/lato-medium.ttf)  format("truetype");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD, U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
 body{
     margin: 0 auto;
+    font-family: "Lato";
+    color:#ffffff;
+    font-size: 16px;
+    max-width: 990px;
+    background-color: #f1f1f1;
+}
+
+.wrapper{
+    display: flex;
+    margin: 0 auto;
+    padding:15vw 0;
+}
+
+section{
+    width: 330px;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 20px;
+}
+
+section:first-child{
+    background: linear-gradient(111deg, rgba(255,202,156,1) 26%, rgba(255,72,0,1) 91%, rgba(255,101,101,1) 100%);
+}
+
+section:nth-child(2){
+    background-image: linear-gradient(to right, #88c7f4, #088bff);
+}
+
+section:last-child{
+    background: linear-gradient(111deg, rgba(158,255,207,0.8491771708683473) 26%, rgba(129,240,121,0.6446953781512605) 52%, rgba(8,217,155,1) 89%);
+}
+
+.number{
+    font-size: 22px;
+}
+
+p{
+font-size: 16px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
 }
