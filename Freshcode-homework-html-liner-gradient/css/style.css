@@ -23,10 +23,23 @@ body{
 }
 
 section{
-    width: 330px;
+    width: 320px;
     border-radius: 10px;
     margin-right: 10px;
     padding: 20px;
+    position: relative;
+}
+
+section::before{
+    content:"";
+    height: 150px;
+    width: 150px;
+    background: #ffffff;
+    opacity: 0.2;
+    position: absolute;
+    right: -50px;
+    bottom: -30px;
+    border-radius:50%;
 }
 
 section:first-child{
@@ -53,3 +66,4 @@ font-size: 16px;
     display: flex;
     justify-content: space-between;
 }
+
